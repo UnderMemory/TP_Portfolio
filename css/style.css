@@ -3,10 +3,14 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 body{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
+.container{
+  margin: 0;
+  padding: 0;
+}
 
 /* Création de la NAVBAR */
 .navbar{
@@ -24,12 +28,19 @@ body{
 
 /* Création de la partie PRESENTATION */
 .bloc_about{
+  top: -20px;
+  margin: 0 auto;
   width: 500px;
 }
 
+.presentation{
+  width: 500px;
+}
 
-
-
+/* Création de la partie COMPETENCES */
+.competences{
+  height: 800px;
+}
 
 
 
