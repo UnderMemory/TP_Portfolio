@@ -190,8 +190,8 @@ body{
 }
 
 .loading{
-  -webkit-animation: pulse 0.5s alternate infinite;
-  -moz-animation: pulse 0.5s alternate infinite;
+  -webkit-animation: pulse 1s alternate infinite;
+  -moz-animation: pulse 1s alternate infinite;
 }
 
 @-webkit-keyframes pulse {
