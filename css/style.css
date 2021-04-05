@@ -229,6 +229,8 @@ h5{
 .download{
   width: 40%;
   margin: 0 auto;
+  position: relative;
+  margin-top: 80px;
 }
 
 .dowl_ttl{
@@ -237,17 +239,31 @@ h5{
   opacity: 1;
 }
 
+/* Création de la partie PROJETS */
+
 .projets_h3{
   position: relative;
   text-align: center;
-  margin: 0 auto;
+  margin: 200px auto 100px auto;
   width: auto;
   font-size: 40px;
   font-family: 'Montserrat', sans-serif;
 }
 
+.slide_projet1{
+  height: 500px;
+  width: 500px;
+}
 
+.slide_projet2{
+  height: 200px;
+  width: 300px;
+}
 
+.slide_projet3{
+  height: 200px;
+  width: 300px;
+}
 
 
 
