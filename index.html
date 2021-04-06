@@ -484,59 +484,55 @@
           </div>
         </div>
         <div class="contact_map">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.970685374624!2d1.5084552157204145!3d43.5446529674607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebe1c78d9a107%3A0xd67b9072ed3b35db!2sDigital%20Campus%20Toulouse!5e0!3m2!1sfr!2sfr!4v1617701680596!5m2!1sfr!2sfr" 
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.970685374624!2d1.5084552157204145!3d43.5446529674607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebe1c78d9a107%3A0xd67b9072ed3b35db!2sDigital%20Campus%20Toulouse!5e0!3m2!1sfr!2sfr!4v1617701680596!5m2!1sfr!2sfr"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
           </iframe>
         </div>
       </div>
-
-
-
-
-
-
-
-
-
 
       <!-- Création de la partie FORMULAIRE -->
 
       <section class="formulaire bg-secondary rounded-pill shadow mb-5">
         <div class="formulaire_btn d-flex flex-row justify-content-center mx-2 py-2">
           <h3 class="formulaire_ttl text-light fs-5 ms-2 mt-2 me-2">Ou sinon, remplissez ce </h3>
-          <a class="btn rounded-pill btn-outline-light ms-2" href="#">
+          <button type="button" class="btn btn-secondary shadow-lg rounded-pill border" data-bs-toggle="modal"
+            data-bs-target="#modal">
             FORMULAIRE
-          </a>
+          </button>
+          <!-- Modal -->
+          <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text-dark" id="modalLabel">Envoyez moi un message !</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="form mt-5">
+                    <form>
+                      <input class="form-control" type="text" id="name" aria-label="Name" placeholder="Votre Nom"
+                        required />
+                      <input class="form-control" type="email" id="mail" aria-label="Email" placeholder="Votre Email"
+                        required />
+                      <input class="form-control" type="tel" id="tel" aria-label="Phone Number"
+                        placeholder="N° de téléphone" required />
+                      <textarea class="message form-control" id="msg" aria-label="Message" placeholder="Votre Message"
+                        required></textarea>
+                    </form>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">
+                    <i class="far fa-envelope fa-2x"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </main>
 
   <!-- Partie footer -->
