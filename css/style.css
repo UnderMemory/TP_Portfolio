@@ -22,9 +22,10 @@ body {
   max-width: 40px;
   max-height: 40px;
 }
+/* Fin de la NAVBAR */
+
 
 /* Création du HEADER */
-
 .header_h1 {
   font-family: 'Dancing Script';
 }
@@ -92,8 +93,11 @@ body {
     width: 500px;
   }
 }
+/* Fin du HEADER */
+
 
 /* Création de la partie BODY */
+/* Fin de la partie BODY */
 
 /* Création de la partie PRESENTATION */
 .bloc_about {
@@ -105,6 +109,8 @@ body {
 .presentation {
   width: 500px;
 }
+/* Fin de la partie PRESENTATION */
+
 
 /* Création de la partie COMPETENCES */
 .competences {
@@ -140,9 +146,10 @@ body {
   margin: 0 auto;
   padding-left: 5px;
 }
+/* Fin de la partie COMPETENCES */
+
 
 /*Création de la partie loeading skills*/
-
 .skill_load {
   height: 20px;
   width: 500px;
@@ -226,9 +233,10 @@ body {
 h5 {
   color: white;
 }
+/*Fin de la partie loeading skills*/
+
 
 /* Création de la partie DOWNLOAD CV */
-
 .download {
   width: 40%;
   margin: 0 auto;
@@ -241,9 +249,9 @@ h5 {
   font-family: 'Roboto', sans-serif;
   opacity: 1;
 }
+/* Fin de la partie DOWNLOAD CV */
 
 /* Création de la partie PROJETS */
-
 .projets_h3 {
   position: relative;
   text-align: center;
@@ -298,7 +306,7 @@ h5 {
   margin-left: 25px;
   margin-right: 25px;
 }
-
+/* Fin de la partie PROJETS */
 
 /* Création de la partie CONTACT */
 .contact_h3 {
@@ -308,9 +316,9 @@ h5 {
   font-size: 40px;
   font-family: 'Montserrat', sans-serif;
 }
+/* Fin de la partie CONTACT */
 
-/* Form */
-
+/* Création du FORM */
 .modal-dialog{
   max-width: 1200px!important;
 }
@@ -362,40 +370,10 @@ h5 {
     grid-row: 1 / span 3;
   }
 }
+/* Fin du FORM */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Partie footer */
+/* Création de la partie FOOTER */
 
 /**/
 .site-footer {
@@ -589,3 +567,4 @@ h5 {
     font-weight: 600
   }
 }
+/* Fin de la partie FOOTER */
