@@ -64,7 +64,7 @@ body {
 
 .header_h1 {
   font-family: 'Pacifico';
-  font-size: 5vw;
+  font-size: 7vw;
   color: var(--dark-blue);
 }
 
@@ -79,7 +79,7 @@ body {
   align-items: center;
   width: 35vw;
   height: 35vw;
-  margin-left: 10vw;
+  margin: auto;
 }
 
 @media(max-width: 576px){
