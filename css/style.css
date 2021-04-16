@@ -51,7 +51,7 @@ body {
   flex-direction: row;
   background: var(--light-blue);
   width: 100%;
-  height: 36vw;
+  height: 40vw;
 }
 
 .header_txt{
@@ -124,7 +124,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 40vw;
+    height: 38vw;
   }
   
   .header_txt{
@@ -157,7 +157,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 36vw;
+    height: 40vw;
   }
   
   .header_txt{
@@ -190,7 +190,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 36vw;
+    height: 40vw;
   }
   
   .header_txt{
