@@ -148,7 +148,7 @@ body {
     align-items: center;
     width: 35vw;
     height: 35vw;
-    margin-left: 20vw;
+    margin: auto;
   }
   
 }
@@ -161,7 +161,7 @@ body {
   }
   
   .header_txt{
-    margin-left: 5vw;
+    margin-left: 9vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,11 +169,11 @@ body {
   }
   
   .header_h1 {
-    font-size: 5vw;
+    font-size: 7vw;
   }
   
   .header_h2 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   
   .header_img{
@@ -181,7 +181,7 @@ body {
     align-items: center;
     width: 35vw;
     height: 35vw;
-    margin-left: 10vw;
+    margin: auto;
   }
   
 }
@@ -202,11 +202,11 @@ body {
   }
   
   .header_h1 {
-    font-size: 5vw;
+    font-size: 8vw;
   }
   
   .header_h2 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   
   .header_img{
@@ -214,7 +214,7 @@ body {
     align-items: center;
     width: 35vw;
     height: 35vw;
-    margin-left: 10vw;
+    margin: auto;
   }
   
 }
