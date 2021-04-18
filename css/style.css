@@ -11,18 +11,18 @@ font-family: 'Roboto', sans-serif; */
 --bg-txt : #EDE8DA; 
 }
 
-body {
+body{
   margin: 0;
   padding: 0;
 }
 
-.container {
+.container{
   margin: 0;
   padding: 0;
 }
 
 /* Création de la NAVBAR */
-.navbar {
+.navbar{
   opacity: 1; 
   background: #FFF;
 }
@@ -39,7 +39,7 @@ body {
   color: var(--dark-pink)!important;
 }
 
-.logo_img {
+.logo_img{
   width: 70px;
 }
 /* Fin de la NAVBAR */
@@ -62,13 +62,13 @@ body {
   height: 100%;
 }
 
-.header_h1 {
+.header_h1{
   font-family: 'Pacifico';
   font-size: 7vw;
   color: var(--dark-blue);
 }
 
-.header_h2 {
+.header_h2{
   font-family: 'Lato', sans-serif;
   font-size: 3vw;
   color: var(--bg-txt);
@@ -100,12 +100,12 @@ body {
     width: 100%;
   }
   
-  .header_h1 {
+  .header_h1{
     font-size: 7vw;
     margin-top: 15px;
   }
   
-  .header_h2 {
+  .header_h2{
     font-size: 5vw;
 
   }
@@ -135,11 +135,11 @@ body {
     height: 100%;
   }
   
-  .header_h1 {
+  .header_h1{
     font-size: 6vw;
   }
   
-  .header_h2 {
+  .header_h2{
     font-size: 4vw;
   }
   
@@ -168,11 +168,11 @@ body {
     height: 100%;
   }
   
-  .header_h1 {
+  .header_h1{
     font-size: 7vw;
   }
   
-  .header_h2 {
+  .header_h2{
     font-size: 4vw;
   }
   
@@ -201,11 +201,11 @@ body {
     height: 100%;
   }
   
-  .header_h1 {
+  .header_h1{
     font-size: 8vw;
   }
   
-  .header_h2 {
+  .header_h2{
     font-size: 4vw;
   }
   
@@ -225,13 +225,13 @@ body {
 /* Fin de la partie BODY */
 
 /* Création de la partie PRESENTATION */
-.bloc_about {
+.bloc_about{
   top: -2vw;
   margin: 0 auto;
   width: 500px;
 }
 
-.presentation {
+.presentation{
   width: 500px;
 }
 
@@ -242,7 +242,7 @@ body {
     width: 100%;
   }
   
-  .presentation {
+  .presentation{
     width: 100%;
   } 
 }
@@ -260,16 +260,14 @@ body {
 
 
 /* Création de la partie COMPETENCES */
-.competences {
-  height: 700px;
-}
 
-.skill {
+
+.skill{
   position: relative;
-  top: 200px;
+  top: 225px;
 }
 
-.skills_h3 {
+.skills_h3{
   justify-content: center;
   margin: 0 auto;
   width: auto;
@@ -285,17 +283,17 @@ body {
   display: flex;
 }
 
-.skills {
+.skills{
   box-shadow: 5px 5px 5px #6C7784;
 }
 
-.skill_img {
+.skill_img{
   border-radius: 50%;
   width: 30%;
   margin: 10px auto;
 }
 
-.skills_detail {
+.skills_detail{
   position: relative;
   width: 90%;
   margin: 0 auto;
@@ -303,6 +301,11 @@ body {
 }
 
 @media (max-width: 576px){
+  .skill{
+    position: relative;
+    top: 300px;
+  }
+  
   .cards_skills{
     display: none;
   }
@@ -313,6 +316,10 @@ body {
 }
 
 @media (min-width: 576px) and (max-width: 768px){
+  .skill{
+    position: relative;
+  }
+
   .cards_skills{
     display: none;
   }
