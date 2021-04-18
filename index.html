@@ -33,10 +33,10 @@
             <a class="nav-link active" aria-current="page" href="#">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">A Propos</a>
+            <a class="nav-link active" href="#About">A Propos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Compétences</a>
+            <a class="nav-link active" href="#Competences">Compétences</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="#">Projets</a>
@@ -69,7 +69,7 @@
     <section class="competences position-relative d-flex justify-content-center">
 
       <!-- Création de la partie PRESENTATION -->
-      <div class="bloc_about bg-danger position-absolute shadow bg-body rounded">
+      <div id="About" class="bloc_about bg-danger position-absolute shadow bg-body rounded">
         <p class="presentation text-center p-3">
           Developpeuse web en formation
           sur Toulouse. Je suis à la recherche de nouvelles
@@ -83,15 +83,17 @@
       </div> 
       <!-- Fin de la partie PRESENTATION -->
 
-<!-- 
+<!-- Création de la partie COMPETENCES -->
       <div class="skill d-flex flex-column">
         <h3 class="skills_h3 mb-5">
           Compétences
         </h3>
 
-        <div id="carousel_skills" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel_skills (le carousel s'affiche en <= 992px)-->
+        <div id="Competences" class="carousel_skills" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
+              <!--Premiere Card-->
               <div class="skills col-12 bg-dark d-flex flex-column mx-5 rounded">
                 <img class="skill_img" src="./images/keyboard.jpg" alt="skil1">
                 <div class="skill-list">
@@ -135,6 +137,7 @@
                 <h5 class="skill_ttl text-center my-2">Language Informatique</h5>
               </div>
             </div>
+            <!--Deuxième Card-->
             <div class="carousel-item">
               <div class="skills col-12 bg-dark d-flex flex-column mx-5 rounded">
                 <img class="skill_img" src="./images/phone.jpg" alt="skill2">
@@ -179,6 +182,7 @@
                 <h5 class="skill_ttl text-center my-2">Informatique</h5>
               </div>
             </div>
+            <!--Troisieme Card-->
             <div class="carousel-item">
               <div class="skills col-12 bg-dark d-flex flex-column mx-5 rounded">
                 <img class="skill_img" src="./images/camera.jpg" alt="skill3">
@@ -224,6 +228,7 @@
               </div>
             </div>
           </div>
+          <!-- Bouton du carousel-->
           <button class="carousel-control-prev" type="button" data-bs-target="#carousel_skills" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
@@ -234,9 +239,9 @@
           </button>
         </div>
 
+        <!-- Cards_skills (les 3 cards s'affichent en >=992px)-->
         <div class="cards_skills justify-content-evenly flex-row">
-
-          -Premiere card--
+          <!--Premiere card-->
           <div class="skills col-4 bg-dark d-flex flex-column mx-5 rounded">
             <img class="skill_img" src="./images/keyboard.jpg" alt="skil1">
             <div class="skill-list">
@@ -280,7 +285,7 @@
             <h5 class="skill_ttl text-center my-2">Language Informatique</h5>
           </div>
 
-          <!--Deuxième card-
+          <!--Deuxième card-->
           <div class="skills col-4 bg-dark d-flex flex-column mx-5 rounded">
             <img class="skill_img" src="./images/phone.jpg" alt="skill2">
             <div class="skill-list">
@@ -324,7 +329,7 @@
             <h5 class="skill_ttl text-center my-2">Informatique</h5>
           </div>
 
-          <!--Troisième card--
+          <!--Troisième card-->
           <div class="skills col-4 bg-dark d-flex flex-column mx-5 rounded">
             <img class="skill_img" src="./images/camera.jpg" alt="skill3">
             <div class="skill-list">
@@ -369,7 +374,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section> 
     <!-- Fin de la partie COMPETENCES -->
 
 
