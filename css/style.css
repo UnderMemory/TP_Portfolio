@@ -338,7 +338,7 @@ body{
   .carousel_skills{
     display: flex;
   }
-  
+
   .img_competence{
     display: none;
   }
@@ -450,12 +450,18 @@ h5 {
   margin: 0 auto;
   position: relative;
   margin-top: 80px;
+  background-color: var(--light-pink);
 }
 
 .dowl_ttl {
-  color: white;
+  color: var(--light-blue);
   font-family: 'Roboto', sans-serif;
   opacity: 1;
+}
+
+.btn-outline-light{
+  color: var(--light-blue)!important;
+  border-color: var(--light-blue)!important;
 }
 /* Fin de la partie DOWNLOAD CV */
 
