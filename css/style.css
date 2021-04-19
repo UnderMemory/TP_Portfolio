@@ -233,6 +233,7 @@ body{
 
 .presentation{
   width: 500px;
+  font-family: 'Roboto';
 }
 
 
@@ -272,7 +273,8 @@ body{
   margin: 0 auto;
   width: auto;
   font-size: 40px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
+  color: var(--dark-pink);
 }
 
 .carousel_skills{
@@ -284,12 +286,12 @@ body{
 }
 
 .skills{
+  background-color: var(--light-pink);
   box-shadow: 5px 5px 5px #6C7784;
 }
 
 .skill_img{
-  border-radius: 50%;
-  width: 30%;
+  width: 90%;
   margin: 10px auto;
 }
 
@@ -364,39 +366,34 @@ body{
   padding: 0;
 }
 
-.loading {
+.start{
   display: block;
   float: left;
-  width: 50px;
   height: 10px;
   margin-right: 10px;
-}
-
-.start {
-  display: block;
-  float: left;
-  width: 50px;
-  height: 10px;
-  margin-right: 10px;
-}
-
-.end {
-  display: block;
-  float: left;
-  width: 50px;
-  height: 10px;
-  margin-right: 10px;
-}
-
-.start {
-  background: rgba(255, 255, 255, 0.9);
+  background: var(--dark-blue);
   box-shadow: inset 0px 0px 10px 2px rgba(117, 182, 255, 0.5),
     0px 0px 20px rgba(117, 182, 214, 0.5);
 }
 
-.end {
-  box-shadow: inset 0px 0px 10px 1px rgba(117, 182, 255, 0.4),
-    0px 0px 20px rgba(117, 182, 255, 0.1);
+.debutant{
+  width: 75px;
+}
+
+.intermediaire{
+  width: 150px;
+}
+
+.maitrise{
+  width: 250px;
+}
+
+.loisir{
+  width: 275px;
+}
+
+.passion{
+  width: 320px;
 }
 
 h5 {
@@ -404,7 +401,10 @@ h5 {
 }
 /*Fin de la partie loeading skills*/
 
-
+.img_competence{
+  display: flex;
+  margin: 50px auto;
+}
 
 
 
