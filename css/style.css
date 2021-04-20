@@ -287,7 +287,7 @@ body{
 
 .skills{
   background-color: var(--light-pink);
-  box-shadow: 5px 5px 5px #6C7784;
+  box-shadow: 5px 5px 5px var(--bg-txt);
 }
 
 .skill_img{
@@ -300,6 +300,10 @@ body{
   width: 90%;
   margin: 0 auto;
   padding-left: 5px;
+}
+
+.logo_skills{
+  width: 40px;
 }
 
 .img_competence{
