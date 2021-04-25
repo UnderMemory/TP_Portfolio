@@ -444,38 +444,9 @@ h5 {
 /*Fin de la partie loeading skills*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Création de la partie DOWNLOAD CV */
 .download {
-  width: 40%;
+  width: 30%;
   margin: 0 auto;
   position: relative;
   margin-top: 80px;
@@ -492,6 +463,32 @@ h5 {
   color: var(--light-blue)!important;
   border-color: var(--light-blue)!important;
 }
+
+@media (max-width: 576px){
+  .download{
+    margin-top: 360px;
+    width: 50%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+  .download{
+    margin-top: 300px;
+    width: 50%;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 992px){
+  .download{
+    margin-top: 250px;
+    width: 40%;
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1200px){
+
+} 
+
 /* Fin de la partie DOWNLOAD CV */
 
 /* Création de la partie PROJETS */
