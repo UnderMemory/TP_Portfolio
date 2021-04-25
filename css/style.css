@@ -270,7 +270,7 @@ body{
 
 .skills_h3{
   justify-content: center;
-  margin: 0 auto;
+  margin: 80px auto 100px auto;
   width: auto;
   font-size: 40px;
   font-family: 'Lato', sans-serif;
@@ -288,10 +288,12 @@ body{
 .skills{
   background-color: var(--light-pink);
   box-shadow: 5px 5px 5px var(--bg-txt);
+  margin-right: 3rem ;
+  margin-left: 3rem ;
 }
 
 .skill_img{
-  width: 90%;
+  width: 80%;
   margin: 10px auto;
 }
 
@@ -303,7 +305,7 @@ body{
 }
 
 .logo_skills{
-  width: 40px;
+  width: 50px;
 }
 
 .img_competence{
@@ -315,6 +317,11 @@ body{
   .skill{
     position: relative;
     top: 300px;
+  }
+
+  .skills{
+    margin: auto;
+    width: 75%;
   }
   
   .cards_skills{
@@ -335,6 +342,12 @@ body{
     position: relative;
   }
 
+  .skills{
+    margin: auto;
+    width: 75%;
+  }
+  
+
   .cards_skills{
     display: none;
   }
@@ -349,6 +362,11 @@ body{
 }
 
 @media(min-width: 768px) and (max-width: 992px){
+  .skills{
+    margin-right: .5rem ;
+    margin-left: .5rem ;
+  }
+
   .cards_skills{
     display: flex;
   }
@@ -356,9 +374,18 @@ body{
   .carousel_skills{
     display: none;
   }
+
+  .img_competence{
+    display: none;
+  }
 }
 
 @media(min-width: 992px) and (max-width: 1200px){
+  .skills{
+    margin-right: 1rem ;
+    margin-left: 1rem ;
+  }
+
   .cards_skills{
     display: flex;
   }
@@ -373,10 +400,9 @@ body{
 /*Création de la partie loeading skills*/
 .skill_load {
   height: 20px;
-  width: 500px;
   position: absolute;
   top: 12px;
-  left: 50px;
+  left: 90px;
   right: 0;
   bottom: 0;
   list-style: none;
@@ -387,30 +413,29 @@ body{
   display: block;
   float: left;
   height: 10px;
-  margin-right: 10px;
   background: var(--dark-blue);
   box-shadow: inset 0px 0px 10px 2px rgba(117, 182, 255, 0.5),
     0px 0px 20px rgba(117, 182, 214, 0.5);
 }
 
 .debutant{
-  width: 75px;
+  width: 30%;
 }
 
 .intermediaire{
-  width: 150px;
+  width: 50%;
 }
 
 .maitrise{
-  width: 250px;
+  width: 70%;
 }
 
 .loisir{
-  width: 275px;
+  width: 70%;
 }
 
 .passion{
-  width: 320px;
+  width: 90%;
 }
 
 h5 {
