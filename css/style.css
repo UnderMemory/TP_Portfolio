@@ -265,14 +265,14 @@ body{
 
 .skill{
   position: relative;
-  top: 225px;
+  top: 150px;
 }
 
 .skills_h3{
   justify-content: center;
-  margin: 80px auto 100px auto;
+  margin: 80px auto 90px auto;
   width: auto;
-  font-size: 40px;
+  font-size: 60px;
   font-family: 'Lato', sans-serif;
   color: var(--dark-pink);
 }
@@ -310,7 +310,7 @@ body{
 
 .img_competence{
   display: flex;
-  margin: 50px auto;
+  margin: -20px auto;
 }
 
 @media (max-width: 576px){
@@ -485,9 +485,6 @@ h5 {
   }
 }
 
-@media(min-width: 992px) and (max-width: 1200px){
-
-} 
 
 /* Fin de la partie DOWNLOAD CV */
 
@@ -495,9 +492,10 @@ h5 {
 .projets_h3 {
   position: relative;
   text-align: center;
-  margin: 200px auto 100px auto;
-  font-size: 40px;
-  font-family: 'Montserrat', sans-serif;
+  margin: 45px auto 100px auto;
+  font-size: 60px;
+  font-family: 'Lato', sans-serif;
+  color: var(--dark-pink);
 }
 
 .carousel_row {
@@ -517,7 +515,8 @@ h5 {
 }
 
 
-.projet2_txt_row {
+.projet2 {
+  flex-direction: row;
   height: 250px;
   width: 600px;
 }
@@ -530,7 +529,8 @@ h5 {
   margin-right: 25px;
 }
 
-.projet3_txt_row {
+.projet3{
+  flex-direction: row;
   height: 250px;
   width: 600px;
   margin-top: 25px;
@@ -539,26 +539,108 @@ h5 {
   margin-bottom: 25px;
 }
 
-.slide_projet3 {
+.slide_projet3{
   height: 40px;
   width: 800px;
   margin-top: 75px;
   margin-left: 25px;
   margin-right: 25px;
 }
+
+@media (max-width: 576px){
+  .slide_projet1{
+    display: contents;
+  }
+
+  .carousel_row{
+    flex-direction: column;
+  }
+
+  
+  .projet2{
+    flex-direction: column;
+  }
+
+  .projet3{
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+  .slide_projet1{
+    display: contents;
+  }
+  
+  .carousel_row{
+    flex-direction: column;
+  }
+
+  .projet2{
+    flex-direction: column;
+  }
+
+  .projet3{
+    flex-direction: column;
+  }
+}
+
+@media(min-width: 768px) and (max-width: 992px){
+  .slide_projet1{
+    display: contents;
+  }
+}
+
+@media(min-width: 992px) and (max-width: 1200px){
+  .slide_projet1{
+    display: contents;
+  }
+
+  .lien_projet{
+    width: 60px;
+    margin-top: 170px;
+    height: 125px;
+  }
+} 
+
+
 /* Fin de la partie PROJETS */
 
 /* Création de la partie CONTACT */
+.contact_lien{
+  background: var(--light-pink);
+}
+
 .contact_h3 {
   position: relative;
   text-align: center;
-  margin: 200px auto 100px auto;
-  font-size: 40px;
-  font-family: 'Montserrat', sans-serif;
+  margin: 100px auto 100px auto;
+  font-size: 60px;
+  font-family: 'Lato', sans-serif;
+  color: var(--dark-pink);
 }
+
+.contact_map{
+  box-shadow: 3px 3px 15px var(--dark-pink);
+}
+
 /* Fin de la partie CONTACT */
 
 /* Création du FORM */
+.formulaire{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: var(--light-pink);
+}
+  
+.formulaire_ttl {
+  color: var(--light-blue);
+  font-family: 'Roboto', sans-serif;
+  opacity: 1;
+}
+  
+
 .modal-dialog{
   max-width: 1200px!important;
 }
@@ -615,11 +697,22 @@ h5 {
 
 /* Création de la partie FOOTER */
 .site-footer {
-  background-color: #26272b;
+  position: relative;
+  background-color: var(--dark-blue);
   padding: 45px 0 20px;
   font-size: 15px;
   line-height: 24px;
-  color: #737373;
+  color: var(--bg-txt);
+}
+
+.bg_logo{
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  bottom: 333px;
+  background-image: url("/images/bg_logo.png");
+  background-size: contain;
+  z-index: -1;
 }
 
 .site-footer hr {
@@ -632,7 +725,7 @@ h5 {
 }
 
 .site-footer h6 {
-  color: #fff;
+  color: var(--light-blue);
   font-size: 16px;
   text-transform: uppercase;
   margin-top: 5px;
@@ -640,11 +733,11 @@ h5 {
 }
 
 .site-footer a {
-  color: #737373;
+  color: var(--bg-txt);
 }
 
 .site-footer a:hover {
-  color: #3366cc;
+  color: var(--dark-pink);
   text-decoration: none;
 }
 
@@ -658,14 +751,7 @@ h5 {
 }
 
 .footer-links a {
-  color: #737373
-}
-
-.footer-links a:active,
-.footer-links a:focus,
-.footer-links a:hover {
-  color: #3366cc;
-  text-decoration: none;
+  color: var(--light-blue)
 }
 
 .footer-links.inline li {
@@ -683,7 +769,8 @@ h5 {
   margin-left: 6px;
   margin-right: 0;
   border-radius: 100%;
-  background-color: #33353d
+  background-color: var(--light-pink);
+  color: var(--dark-blue);
 }
 
 .copyright-text {
