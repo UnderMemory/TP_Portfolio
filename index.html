@@ -36,10 +36,10 @@
             <a class="nav-link active" href="#competences">Compétences</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Projets</a>
+            <a class="nav-link active" href="#projets">Projets</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Contact</a>
+            <a class="nav-link active" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -80,7 +80,7 @@
       </div> 
       <!-- Fin de la partie PRESENTATION -->
 
-<!-- Création de la partie COMPETENCES -->
+      <!-- Création de la partie COMPETENCES -->
       <div class="skill d-flex flex-column">
         <h3  id="competences" class="skills_h3">
           Compétences
@@ -310,26 +310,80 @@
 
 
     <!-- Création de la partie DOWNLOAD CV -->
-    <section class="download rounded-pill shadow mb-5">
+    <section class="download mb-5">
       <div class="downl_ttl_btn d-flex flex-row justify-content-between mx-2 py-2">
-        <h3 class="dowl_ttl fs-5 ms-2 mt-2">Besoin d'en voir plus ?</h3>
-        <a class="btn rounded-pill btn-outline-light" href="./images/elodie_bidard.pdf" target="_blank">
-          Voir mon CV
+        <a class="btn" href="./images/elodie_bidard.pdf" target="_blank">
+          <button class="learn-more rounded-pill">Voir mon CV</button>
         </a>
       </div>
-    </section> -->
+    </section> 
+  </main>
     <!-- Fin de la partie DOWNLOAD CV -->
+
+
+
+
 
 
     <!-- Création de la partie PROJETS -->
     <section class="projets mt-5">
-      <h3 class="projets_h3">
+  <main class="container">
+      <h3 class="projets_h3" id="projets">
         Projets
       </h3>
 
-      <div class="carousel_row d-flex justify-content-end shadow-lg bg-light rounded">
+
+
+
+      
+    <div class="content">
+      <div class="box_">
+          <img src="/images/projet1.png">
+          <p> Réalisation d'un premier projet de Portfolio afin d'appuyer ma candidature pour la formation de Developpeur web et Web mobile. 
+              <button class="learn-more rounded-pill">Voir le site</button>
+          </p>
+      </div>
+      <div class="box_">
+          <img src="/images/projet2.png">
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, consequatur! orem ipsum dolor, sit amet consectetur adipisicing elit. Neque, consequatur!
+              <button class="learn-more rounded-pill">Voir le site</button>
+          </p>
+      </div>
+      <div class="box_">
+          <img src="/images/projet3.png">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste iusto hic reiciendis assumenda itaque, natus dolore ullam ipsam atque iure aliquid explicabo necessitatibus nobis illo! Dignissimos nisi alias minima in.
+              <button class="learn-more rounded-pill">Voir le site</button>
+          </p>
+      </div>
+      <div class="box_">
+          <img src="/images/projet4.png">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt inventore illo perferendis tempora, nemo quibusdam nihil non aperiam quaerat nisi veniam suscipit sunt quia sint saepe ipsa optio corporis corrupti, recusandae omnis quas
+              deleniti aut? Placeat nisi velit excepturi. Unde omnis alias facilis obcaecati, vel qui quisquam vitae consequatur accusantium.
+              <button class="learn-more rounded-pill">Voir le code</button>
+          </p>
+      </div>
+      <div class="box_">
+        <img src="/images/projet5.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt inventore illo perferendis tempora, nemo quibusdam nihil non aperiam quaerat nisi veniam suscipit sunt quia sint saepe ipsa optio corporis corrupti, recusandae omnis quas
+            deleniti aut? Placeat nisi velit excepturi. Unde omnis alias facilis obcaecati, vel qui quisquam vitae consequatur accusantium.
+            <button class="learn-more rounded-pill">Voir le code</button>
+        </p>
+      </div>
+      <div class="box_">
+        <img src="/images/projet6.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt inventore illo perferendis tempora, nemo quibusdam nihil non aperiam quaerat nisi veniam suscipit sunt quia sint saepe ipsa optio corporis corrupti, recusandae omnis quas
+            deleniti aut? Placeat nisi velit excepturi. Unde omnis alias facilis obcaecati, vel qui quisquam vitae consequatur accusantium.
+            <button class="learn-more rounded-pill">Voir le code</button>
+        </p>
+      </div>
+  </div>
+
+
+
+
+      <!-- <div class="carousel_row d-flex justify-content-end shadow-lg bg-light rounded"> -->
         <!-- Slide Projet 1 -->
-        <div class="slide_projet1 w-50 shadow">
+        <!-- <div class="slide_projet1 w-50 shadow">
           <div id="carousel_projet1" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carousel_projet1" data-bs-slide-to="0" class="active"
@@ -392,9 +446,9 @@
           </div>
         </div>
 
-        <div class="carousel_column d-flex flex-column">
+        <div class="carousel_column d-flex flex-column"> -->
           <!--Slide Projet 2-->
-          <div class="projet2 d-flex shadow my-5 mx-5">
+          <!-- <div class="projet2 d-flex shadow my-5 mx-5">
             <div class="slide_projet2">
               <div id="carousel_projet2" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -430,11 +484,11 @@
                 Les projets ont été réalisé durant les cours sur HTML et CSS.
               </p>
             </div>
-          </div>
+          </div> -->
 
 
           <!--Slide Projet 3-->
-          <div class="projet3 d-flex shadow mt-5 mx-5">
+          <!-- <div class="projet3 d-flex shadow mt-5 mx-5">
             <div class="slide_projet3">
               <div id="carousel_projet3" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -473,14 +527,14 @@
           </div>
         </div>
       </div>
-    </section> 
+    </section>  -->
     <!-- Fin de la partie PROJETS -->
 
 
     <!-- Création de la partie CONTACT -->
     <section class="contact">
 
-      <h3 class="contact_h3">
+      <h3 class="contact_h3" id="contact">
         Contactez-moi !
       </h3>
 
@@ -504,13 +558,13 @@
       </div>
 
       <!-- Création de la partie FORMULAIRE -->
-      <section class="formulaire rounded-pill shadow mb-5">
+      <section class="formulaire mb-5">
         <div class="formulaire_btn d-flex flex-row mx-2 py-2">
-          <h3 class="formulaire_ttl fs-5 ms-2 mt-2 me-2">Ou sinon, remplissez ce </h3>
-          <button type="button" class="btn btn-secondary shadow-lg rounded-pill border" data-bs-toggle="modal"
+          <button type="button" class="learn-more btn rounded-pill" data-bs-toggle="modal"
             data-bs-target="#modal">
-            FORMULAIRE
+            FORMULAIRE DE CONTACT
           </button>
+
           <!-- Création Modal -->
           <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
             <div class="modal-dialog">
@@ -601,7 +655,7 @@
           <ul class="social-icons">
             <li><a class="facebook" href="https://www.facebook.com/atsuwen.mitsu/" target="_blank"><i
                   class="fa fa-facebook"></i></a></li>
-            <li><a class="dribbble" href="https://github.com/UnderMemory" target="_blank"><i
+            <li><a class="github" href="https://github.com/UnderMemory" target="_blank"><i
                   class="fa fa-github"></i></a></li>
             <li><a class="linkedin" href="https://www.linkedin.com/in/elodie-bidard-534852203/" target="_blank"><i
                   class="fa fa-linkedin"></i></a></li>
