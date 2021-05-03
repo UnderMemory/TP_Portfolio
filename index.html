@@ -65,7 +65,7 @@
     <!-- Création de la partie COMPETENCES -->
     <section class="competences position-relative d-flex justify-content-center">
 
-      <!-- Création de la partie PRESENTATION -->
+    <!-- Création de la partie PRESENTATION -->
       <div id="About" class="bloc_about bg-danger position-absolute shadow bg-body rounded">
         <p class="presentation text-center p-3">
           Developpeuse web en formation
@@ -79,10 +79,10 @@
         </p>
 
         <!-- Création de la partie DOWNLOAD CV -->
-        <section class="download download-banner mb-2">
+        <section class="voir_cv mb-2">
           <div class="downl_ttl_btn d-flex flex-row justify-content-between">
             <a class="btn" href="./images/elodie_bidard.pdf" target="_blank">
-              <button class="learn-more rounded-pill">Voir mon CV</button>
+              <button class="btn_txt rounded-pill">Voir mon CV</button>
             </a>
           </div>
         </section>
@@ -320,7 +320,7 @@
   <!-- Fin de la partie COMPETENCES -->
 
   <!-- Création de la partie PROJETS -->
-  <section class="projets mt-5">
+  <section class="projets">
     <main class="container">
       <h3 class="projets_h3" id="projets">
         Projets
@@ -334,9 +334,10 @@
             <img src="./images/projet1.png" alt="projet_1">
           </div>
           <div class="box_content">
+            <div class="card_txt">
             <h3>Premier Portfolio</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium pariatur totam nobis
-              eveniet provident.</p>
+            <p>Réalisation d'un premier portfolio afin d'appuyer ma candidature pour la formation de Digital Campus.</p>
+          </div>
             <a class="btn" href="https://portfolioelodiebidard.herokuapp.com/" target="_blank">
               <button class="learn-more rounded-pill">Voir le site</button>
             </a>
@@ -348,9 +349,10 @@
             <img src="./images/projet2.png" alt="projet_2">
           </div>
           <div class="box_content">
+            <div class="card_txt">
             <h3>Blog</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium pariatur totam nobis
-              eveniet provident.</p>
+            <p>Réalisation d'un premier blog basé afin d'appuyer ma candidature pour la formation de Digital Campus.</p>
+          </div>
             <a class="btn" href="https://portfolioelodiebidard.herokuapp.com/" target="_blank">
               <button class="learn-more rounded-pill">Voir le site</button>
             </a>
@@ -362,9 +364,10 @@
             <img src="./images/projet3.png" alt="projet_3">
           </div>
           <div class="box_content">
-            <h3>Design</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium pariatur totam nobis
-              eveniet provident.</p>
+            <div class="card_txt">
+            <h3>Site Vitrine</h3>
+            <p>Reproduction d'un site vitrine réalisé lors de ma formation mettant en pratique nos connaissances en Bootstrap.</p>
+          </div>
             <a class="btn" href="https://portfolioelodiebidard.herokuapp.com/" target="_blank">
               <button class="learn-more rounded-pill">Voir le site</button>
             </a>
@@ -376,9 +379,11 @@
             <img src="./images/projet4.png" alt="projet_4">
           </div>
           <div class="box_content">
+            <div class="card_txt">
             <h3>Design</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium pariatur totam nobis
               eveniet provident.</p>
+            </div>
             <a class="btn" href="https://portfolioelodiebidard.herokuapp.com/" target="_blank">
               <button class="learn-more rounded-pill">Voir le site</button>
             </a>
@@ -390,9 +395,11 @@
             <img src="./images/phone.jpg" alt="projet_4">
           </div>
           <div class="box_content">
+            <div class="card_txt">
             <h3>Design</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium pariatur totam nobis
               eveniet provident.</p>
+            </div>
             <a class="btn" href="https://portfolioelodiebidard.herokuapp.com/" target="_blank">
               <button class="learn-more rounded-pill">Voir le site</button>
             </a>
@@ -404,9 +411,11 @@
             <img src="./images/camera.jpg" alt="projet_4">
           </div>
           <div class="box_content">
+            <div class="card_txt">
             <h3>Design</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia accusantium pariatur totam nobis
               eveniet provident.</p>
+            </div>
             <a class="btn" href="https://portfolioelodiebidard.herokuapp.com/" target="_blank">
               <button class="learn-more rounded-pill">Voir le site</button>
             </a>
@@ -423,16 +432,20 @@
         <h3 class="contact_h3" id="contact">
           Contactez-moi !
         </h3>
-        <div class="box_contact d-flex flex-column  mb-4 p-1">
-          <div class="contact_lien d-flex flex-row justify-content-evenly mb-3 p-4">
+        <div class="box_contact d-flex flex-column mb-4 p-4">
+          <div class="contact_lien d-flex flex-row justify-content-evenly ms-5">
             <div class="ctc_lien d-flex flex-column justify-content-around">
               <div class="ctc_icon d-flex flex-row">
-                <i class="fas fa-mobile-alt fa-4x"></i>
+                <i class="fas fa-mobile-alt fa-3x"></i>
                 <p class="contact_dtl ms-4 mt-2">06.15.31.45.73</p>
               </div>
               <div class="ctc_icon d-flex flex-row">
-                <i class="fas fa-at fa-4x"></i>
+                <i class="fas fa-at fa-3x"></i>
                 <p class="contact_dtl ms-3 mt-2">elodiebdd@gmail.com</p>
+              </div>
+              <div class="ctc_icon d-flex flex-row">
+                <i class="fas fa-map-marker-alt fa-3x"></i>
+                <p class="contact_dtl ms-3 mt-2">Toulouse, FRANCE</p>
               </div>
             </div>
             <div class="contact_map">
@@ -442,7 +455,7 @@
             </div>
           </div>
           <!-- Création de la partie FORMULAIRE -->
-          <section class="formulaire mb-2">
+          <section class="formulaire mt-4">
             <div class="formulaire_btn d-flex flex-row mx-2 py-2">
               <button type="button" class="learn-more btn rounded-pill" data-bs-toggle="modal" data-bs-target="#modal">
                 FORMULAIRE DE CONTACT
@@ -487,7 +500,6 @@
       <!-- Fin de la partie FORMULAIRE -->
   </section>
   <!-- Fin de la partie CONTACT -->
-
   <!-- Fin de la partie BODY -->
 
 
