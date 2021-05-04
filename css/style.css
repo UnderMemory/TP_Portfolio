@@ -561,7 +561,7 @@ h5 {
   background-image: url("/images/bg_bulles.png");
   background-repeat: no-repeat;
   height: 100%;
-  z-index: -1;  
+  z-index: 1;  
 }
 
 .projets_h3 {
@@ -731,7 +731,9 @@ button.learn-more:hover::before {
 
 /* Création de la partie CONTACT */
 .contact{
-  width: 90%;
+  background-image: url("/images/bg_logo.png");
+  background-size: contain;
+  width: 100%;
   position: relative;
   margin: auto;
   margin-top: 150px;
@@ -739,7 +741,9 @@ button.learn-more:hover::before {
 
 .box_contact{
   position: relative;
-  width: 100%;
+  width: 60%;
+  margin: auto;
+  bottom: 40px;
   border-radius: 30px;
   background: rgb(205, 203, 216);
   box-shadow: 0 5px 20px rgba(90, 59, 231, 0.5);
@@ -749,6 +753,7 @@ button.learn-more:hover::before {
   position: relative;
   text-align: center;
   margin: -100px auto 100px auto;
+  bottom: 10px;
   font-size: 60px;
   font-family: 'Lato', sans-serif;
   color: var(--dark-pink);
@@ -940,8 +945,7 @@ button.learn-more:hover::before {
   height: 600px;
   width: 100%;
   bottom: 333px;
-  background-image: url("/images/bg_logo.png");
-  background-size: contain;
+ 
   z-index: -2;
 }
 
