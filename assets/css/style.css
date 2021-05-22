@@ -689,7 +689,7 @@ button.btn_txt:hover::before {
   }
 
   .card_container .card{
-    height: 360px;
+    height: 345px;
   }
 
   .card_txt{
@@ -703,7 +703,7 @@ button.btn_txt:hover::before {
   }
 
   .card_container .card{
-    height: 360px;
+    height: 345px;
   }
 
   .card_txt{
@@ -717,7 +717,7 @@ button.btn_txt:hover::before {
   }
 
   .card_container .card{
-    height: 360px;
+    height: 345px;
   }
 
   .card_txt{
@@ -826,7 +826,7 @@ button.learn-more:hover::before {
 }
 
 .button {
-  width: 400px;
+  width: 100%;
   height: 34px;
   transition: all .2s ease-in-out;
 }
@@ -844,6 +844,7 @@ button.learn-more:hover::before {
 
 /*Contact Page Droite */
 .direct-contact-container {
+  display: flex;
   max-width: 400px;
   float: right;
   margin-top: 5px;
