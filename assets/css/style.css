@@ -319,7 +319,8 @@ button.btn_txt:hover::before {
   font-family: 'Roboto';
   font-size: 20px;
   border-left: 1px solid var(--dark-pink);
-  padding-left: 50px;
+  margin: auto;
+  padding-left: 50px;;
   color: var(--dark-blue);
 }
 
@@ -329,7 +330,7 @@ button.btn_txt:hover::before {
   }
 
   .about_h3{
-    margin: 300px auto 10px auto;
+    margin: 330px auto 10px auto;
     font-size: 50px;
   }
 
@@ -342,6 +343,9 @@ button.btn_txt:hover::before {
     border-left: 0px;
     width: 80%;
     font-size: 20px;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 0px;
   }
 }
 
@@ -364,6 +368,8 @@ button.btn_txt:hover::before {
     border-left: 0px;
     width: 80%;
     font-size: 20px;
+    margin: auto;
+    padding-top: 50px;
   }
 }
 
@@ -386,6 +392,8 @@ button.btn_txt:hover::before {
     border-left: 0px;
     width: 80%;
     font-size: 20px;
+    margin: auto;
+    padding-top: 50px;
   }
 }
 
@@ -487,6 +495,10 @@ button.btn_txt:hover::before {
 @media (max-width: 576px){
   .skill{
     top: 10px
+  }
+
+  .skills_h3{
+    font-size: 50px;
   }
 
   .cards_skills{
@@ -685,11 +697,11 @@ button.btn_txt:hover::before {
 
 @media (max-width: 576px){
   .projets{
-    top: 80px;
+    top: 20px;
   }
 
   .card_container .card{
-    height: 345px;
+    height: 290px;
   }
 
   .card_txt{
