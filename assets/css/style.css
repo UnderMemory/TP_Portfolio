@@ -442,14 +442,16 @@ button.btn_txt:hover::before {
 }
 
 .skills{
-  background-color:var(--light-pink);
-  box-shadow: 5px 5px 5px rgba(128, 29, 148, 0.247);
-  margin-right: 3rem ;
-  margin-left: 3rem ;
+  background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+  margin-left: 3rem;
   transform: perspective(1px) translateZ(0);
   position: relative;
   overflow: hidden;
   vertical-align: middle;
+}
+
+.skills:hover{
+  background-image: linear-gradient(to top, #bdc2e8 0%, #ebbfeba8 1%, #f6eff8 100%);
 }
 
 .skills:before{
@@ -464,6 +466,10 @@ button.btn_txt:hover::before {
   transition-timing-function: ease-in-out;
   transition-property: right;
   transition-duration: 0.3s;
+}
+
+.skill_ttl{
+ color: var(--dark-blue)
 }
 
 .skill_img{
